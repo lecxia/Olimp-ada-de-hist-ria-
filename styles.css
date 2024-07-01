@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a02c7e; /* roxo */
+    color: #ff6b81; /* rosa */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad; /* roxo mais escuro */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+#inscricao, #fases {
+    background-color: #fff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+input, button {
+    padding: 0.5em;
+    width: calc(100% - 20px);
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6b81; /* rosa */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4757; /* rosa mais escuro */
+}
+
+footer {
+    background-color: #6a0dad; /* roxo mais escuro */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.fase {
+    margin-bottom: 1em;
+}
